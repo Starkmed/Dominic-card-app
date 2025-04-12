@@ -40,12 +40,12 @@ def __(
                 [
                     mo.vstack(
                         [
-                            mo.hstack(["Имя Фамилия:", fullname]),
-                            mo.hstack(["CARD NO.:", card_id]),
-                            mo.hstack(["Дата рождения:", birthday]),
-                            mo.hstack(["Дата регистрации карты:", register_date]),
+                            mo.hstack(["SERGEI SHUGINOV:", fullname]),
+                            mo.hstack(["D538060557.:", card_id]),
+                            mo.hstack(["13 02 1988:", birthday]),
+                            mo.hstack(["10 03 2024:", register_date]),
                             mo.hstack(
-                                ["Пол:", sex, ("Мужчина", "Женщина")[sex.value]],
+                                ["Пол:", sex, ("Мужчина")[sex.value]],
                                 justify="start",
                             ),
                             mo.hstack(["Upload photo", photo], justify="start"),
